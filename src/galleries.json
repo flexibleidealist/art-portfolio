@@ -1,0 +1,17 @@
+[
+  {
+    "title": "assemblage",
+    "coverImage": "https://i.imgur.com/L62gglx.jpg",
+    "id": 1
+  },
+  {
+    "title": "collage",
+    "coverImage":"https://i.imgur.com/iwGQ8MT.jpg",
+    "id": 2
+  },
+  {
+    "title": "drawing",
+    "coverImage": "https://i.imgur.com/p5uFFKB.jpg",
+    "id": 3
+  }
+]

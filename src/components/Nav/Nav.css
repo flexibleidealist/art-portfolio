@@ -2,7 +2,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 10vh;
+  height: 8vh;
+  padding-right: 15px;
+  border-bottom: 1px solid darkgrey;
+
 }
 
 .navbar a {

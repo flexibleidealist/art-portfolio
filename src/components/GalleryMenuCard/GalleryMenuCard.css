@@ -1,0 +1,17 @@
+.gallery-menu-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 20px;
+  width: 30vw;
+  min-width: fit-content;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+}
+
+.gallery-menu-card img {
+  max-width: 80%;
+  height: 80%;
+}

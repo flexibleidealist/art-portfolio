@@ -2,13 +2,13 @@ import { useState } from "react"
 import works from "../../works.json"
 
 function Carousel(){
-  const [currentWork, setCurrentWork] = useState({})
-  let i = 0
-  const advanceImage = () => {
-    i < works.length ? i++ : i = 0
-    setCurrentWork(works[i])
-  }
-  setInterval(advanceImage, 3000)
+  // const [currentWork, setCurrentWork] = useState({})
+  // let i = 0
+  // const advanceImage = () => {
+  //   i < works.length ? i++ : i = 0
+  //   setCurrentWork(works[i])
+  // }
+  // setInterval(advanceImage, 3000)
 
 //   let i = 0;
 //   const slideShow = () => {
@@ -27,7 +27,7 @@ function Carousel(){
 
   return (
     <div className="carousel">
-      <img src={currentWork.image} alt={`${currentWork.title} from the ${currentWork.gallery} gallery`} />
+      {/* <img src={currentWork.image} alt={`${currentWork.title} from the ${currentWork.gallery} gallery`} /> */}
     </div>
   )
 }
