@@ -1,5 +1,8 @@
-import Home from './screens/Home/Home.jsx';
 import { Route } from "react-router-dom"
+import Home from './screens/Home/Home.jsx';
+import About from "./screens/About/About.jsx";
+import GalleryMenu from './screens/GalleryMenu/GalleryMenu.jsx';
+import Contact from "./screens/Contact/Contact.jsx";
 import './App.css';
 
 function App() {
@@ -9,13 +12,13 @@ function App() {
         <Home />
       </Route>
       <Route exact path="/work">
-        <h1>work: gallery menu</h1>
+        <GalleryMenu />
       </Route>
       <Route exact path="/about">
-        <h1>about: artist statement</h1>
+        <About />
       </Route>
       <Route exact path="/contact">
-        <h1>contact: links</h1>
+        <Contact />
       </Route>
 
     </div>
