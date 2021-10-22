@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
+import Carousel from "../../components/Carousel/Carousel.jsx"
 import "./Home.css"
 
 function Home() {
-  
+
   return (
     <div className="home-page">
       <header className="home-header">
@@ -14,8 +15,8 @@ function Home() {
         </div>
       </header>
       <main>
-        <section className="carousel">
-          <img></img>
+        <section className="carousel-container">
+          <Carousel />
         </section>
       </main>
     </div>
