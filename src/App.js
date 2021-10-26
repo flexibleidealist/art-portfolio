@@ -4,6 +4,7 @@ import About from "./screens/About/About.jsx";
 import GalleryMenu from './screens/GalleryMenu/GalleryMenu.jsx';
 import Gallery from "./screens/Gallery/Gallery.jsx"
 import Contact from "./screens/Contact/Contact.jsx";
+import WorkDetail from "./screens/WorkDetail/WorkDetail.jsx";
 import works from "./works.json"
 import './App.css';
 
@@ -24,6 +25,9 @@ function App() {
       </Route>
       <Route exact path="/galleries/:title">
         <Gallery />
+      </Route>
+      <Route exact path="/works/:id">
+        <WorkDetail works={works}/>
       </Route>
     </div>
   );

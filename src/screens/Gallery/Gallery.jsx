@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import Nav from "../../components/Nav/Nav.jsx"
 import Work from "../../components/Work/Work.jsx"
 import works from "../../works.json"
@@ -12,7 +12,9 @@ function Gallery(){
       <Nav />
       <main className="gallery">
       {galleryWorks.map(work => (
-        <Work work={work}/>
+        <Link to={`/works/${work.id}`}>
+          <Work work={work}/>
+        </Link>
       ))}
       </main>
 
