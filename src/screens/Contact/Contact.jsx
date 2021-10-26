@@ -1,5 +1,5 @@
 import Nav from "../../components/Nav/Nav"
-
+import "./Contact.css"
 function Contact(){
   return(
     <div className="contact-screen">

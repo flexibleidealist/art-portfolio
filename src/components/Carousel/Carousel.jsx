@@ -1,5 +1,6 @@
 import { useState } from "react"
 import works from "../../works.json"
+import "./Carousel.css"
 
 function Carousel(){
   // const [currentWork, setCurrentWork] = useState({})
@@ -27,6 +28,7 @@ function Carousel(){
 
   return (
     <div className="carousel">
+      <img src="https://i.imgur.com/iwGQ8MT.jpg" alt="collage entitled Cynic" />
       {/* <img src={currentWork.image} alt={`${currentWork.title} from the ${currentWork.gallery} gallery`} /> */}
     </div>
   )

@@ -1,0 +1,11 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.contact a {
+  margin-top: 50px;
+  font-size: 1.2em;
+}
