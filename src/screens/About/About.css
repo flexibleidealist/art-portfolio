@@ -8,11 +8,13 @@
 .about img {
   margin: 30px auto;
   max-width: 30vw;
+  border: 1px solid darkgray;
+  border-radius: 6px;
 }
 .about p {
-  margin: 25px 100px;
+  margin: 25px 130px;
   font-size: 1.2em;
-  font-weight: 500;
-  line-height: 1.4em;
+  font-weight: 450;
+  line-height: 1.5em;
   text-align: justify;
 }
