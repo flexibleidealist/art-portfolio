@@ -10,6 +10,9 @@ function Gallery(){
   return (
     <div className="gallery-container">
       <Nav />
+      <header className="gallery-header">
+        {params.title}
+      </header>
       <main className="gallery">
       {galleryWorks.map(work => (
         <Link to={`/works/${work.id}`}>

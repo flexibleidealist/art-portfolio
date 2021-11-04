@@ -1,6 +1,7 @@
 .gallery-menu {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   padding: 5vh 5vw;
   width: 100vw;
 }
