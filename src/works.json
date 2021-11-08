@@ -5,7 +5,8 @@
     "materials": "wood, paper, yarn, found objects",
     "image": "https://i.imgur.com/L62gglx.jpg",
     "gallery": "assemblage",
-    "id": 1
+    "id": 1,
+    "coverImage": true
   },
   {
     "title": "#me2479 (1)",
@@ -13,7 +14,8 @@
     "materials": "iPhone box, wood, paper, thread",
     "image": "https://i.imgur.com/Gw1KhGd.jpg",
     "gallery": "assemblage",
-    "id": 2
+    "id": 2,
+    "coverImage": true
   },
   {
     "title": "#me2479 (2)",
@@ -21,7 +23,8 @@
     "materials": "iPhone box, wood, paper, thread",
     "image": "https://i.imgur.com/s3nOLZK.jpg",
     "gallery": "assemblage",
-    "id": 3
+    "id": 3,
+    "coverImage": false
   },
   {
     "title": "untitled assemblage",
@@ -29,7 +32,8 @@
     "materials": "AirPods box, wood, paper, found objects",
     "image": "https://i.imgur.com/YHKnKl8.jpg",
     "gallery": "assemblage",
-    "id": 4
+    "id": 4,
+    "coverImage": true
   },
   {
     "title": "Cynic",
@@ -37,7 +41,8 @@
     "materials": "paper",
     "image": "https://i.imgur.com/iwGQ8MT.jpg",
     "gallery": "collage",
-    "id": 5
+    "id": 5,
+    "coverImage": true
   },
   {
     "title": "Christ Child",
@@ -45,7 +50,8 @@
     "materials": "paper",
     "image": "https://i.imgur.com/qqaQT5I.jpg",
     "gallery": "collage",
-    "id": 6
+    "id": 6,
+    "coverImage": false
   },
   {
     "title": "Family Separation (3)",
@@ -53,7 +59,8 @@
     "materials": "paper, thread",
     "image": "https://i.imgur.com/TqqRwkT.jpg",
     "gallery": "drawing",
-    "id": 7
+    "id": 7,
+    "coverImage": true
   },
   {
     "title": "Young Man with a Sword",
@@ -62,7 +69,8 @@
     "image": "https://i.imgur.com/jxun1Kj.png",
     "image2": "https://i.imgur.com/rB2GPzg.png",
     "gallery": "drawing",
-    "id": 8
+    "id": 8,
+    "coverImage": false
   },
   {
     "title": "Tony",
@@ -70,7 +78,9 @@
     "materials": "charcoal on paper",
     "image": "https://i.imgur.com/p7KcN0T.jpg?2",
     "gallery": "drawing",
-    "id": 9
+    "id": 9,
+    "coverImage": false
+
   },
   {
     "title": "Brian's Landscape Drawing",
@@ -78,7 +88,9 @@
     "materials": "paper",
     "image": "https://i.imgur.com/4kYgh44.jpg",
     "gallery": "collage",
-    "id": 10
+    "id": 10,
+    "coverImage": true
+
   },
   {
     "title": "Metamorphosis (1)",
@@ -86,7 +98,9 @@
     "materials": "paper",
     "image": "https://i.imgur.com/mk4cqk9.jpg",
     "gallery": "collage",
-    "id": 11
+    "id": 11,
+    "coverImage": false
+
   },
   {
     "title": "Michelangelo's Queers (5)",
@@ -94,7 +108,9 @@
     "materials": "paper",
     "image": "https://i.imgur.com/LcUV8qX.jpg",
     "gallery": "collage",
-    "id": 12
+    "id": 12,
+    "coverImage": false
+
   },
   {
     "title": "Michelangelo's Queers (1)",
@@ -102,7 +118,9 @@
     "materials": "guache and thread on paper",
     "image": "https://i.imgur.com/xyGYD3h.jpg",
     "gallery": "drawing",
-    "id": 13
+    "id": 13,
+    "coverImage": true
+
   },
   {
     "title": "Cop/Forest",
@@ -110,7 +128,9 @@
     "materials": "paper, thread",
     "image": "https://i.imgur.com/WfBm7mI.jpg",
     "gallery": "collage",
-    "id": 14
+    "id": 14,
+    "coverImage": true
+
   },
   {
     "title": "Hillary/Iraq",
@@ -118,7 +138,9 @@
     "materials": "paper, thread",
     "image": "https://i.imgur.com/bEyYCpx.jpg",
     "gallery": "collage",
-    "id": 15
+    "id": 15,
+    "coverImage": false
+
   },
   {
     "title": "untitled",
@@ -126,7 +148,8 @@
     "materials": "ink on paper",
     "image": "https://i.imgur.com/p5uFFKB.jpg",
     "gallery": "drawing",
-    "id": 16
+    "id": 16,
+    "coverImage": false
   },
   {
     "title": "untitled",
@@ -134,7 +157,9 @@
     "materials": "pencil and ink on paper",
     "image": "https://i.imgur.com/UpuKNqC.jpg",
     "gallery": "drawing",
-    "id": 17
+    "id": 17,
+    "coverImage": false
+
   }
 
 ]
