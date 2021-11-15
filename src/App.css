@@ -15,4 +15,5 @@ body {
 }
 img {
   align-self: center;
+  object-fit: contain;
 }
