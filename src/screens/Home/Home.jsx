@@ -14,11 +14,12 @@ function Home() {
           <Link to="/contact">Contact</Link>
         </div>
       </header>
-      <main>
+      <main className="main">
         <section className="carousel-container">
           <Carousel />
         </section>
       </main>
+      <footer>all images &copy; Nicholas Rynearson</footer>
     </div>
   )
 }

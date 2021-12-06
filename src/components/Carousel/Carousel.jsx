@@ -22,7 +22,7 @@ function Carousel() {
   return (
     <div className="carousel">
       {transitions((style, i) => (
-        <animated.img style={style} src={covers[i].image} alt={covers[i].title} />
+        <animated.img style={style} src={covers[i].image} alt={covers[i].title}></animated.img>
         ))}
     </div>
   )}

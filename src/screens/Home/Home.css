@@ -4,7 +4,7 @@
   height: 12vh;
   justify-content: space-between;
   padding: 8vh 10vw;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   align-items: center;
 }
 
@@ -19,9 +19,23 @@
   margin: 5% 0;
 }
 
+.main {
+  height: 88vh;
+  padding-top: 2vh;
+}
+
+footer {
+  padding: 4vh 1vw;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 475px) {
   .home-header h1 {
     font-size: 1.2rem;
+    height: 8vh;
+    padding: 3vh 2vw;
   }
 
   .home-links a {

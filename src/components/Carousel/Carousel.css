@@ -9,13 +9,16 @@
   max-width: 60vw;
   max-height: 75vh;
   margin: 25px;
+  position: relative;
 }
 
-.cover {
-  max-width: 60vw;
-  max-height: 75vh;
-  margin: 25px;
+@media screen and (max-width: 475px) {
+  .carousel img {
+    max-width: 80vw;
+    max-height: 85vh;
+    margin: 2vh 2vw;
+  }
 }
-
+  
 
 
